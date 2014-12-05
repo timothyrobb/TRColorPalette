@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90072A211A31C3ED00ED49A9 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90072A201A31C3ED00ED49A9 /* AppKit.framework */; };
+		90072A231A31C3ED00ED49A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90072A221A31C3ED00ED49A9 /* Foundation.framework */; };
+		90072A281A31C3ED00ED49A9 /* TRColorPalette.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 90072A271A31C3ED00ED49A9 /* TRColorPalette.xcscheme */; };
+		90072A2B1A31C3ED00ED49A9 /* TRColorPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 90072A2A1A31C3ED00ED49A9 /* TRColorPalette.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		90072A1D1A31C3ED00ED49A9 /* TRColorPalette.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRColorPalette.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		90072A201A31C3ED00ED49A9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		90072A221A31C3ED00ED49A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		90072A261A31C3ED00ED49A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90072A271A31C3ED00ED49A9 /* TRColorPalette.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = TRColorPalette.xcscheme; path = TRColorPalette.xcodeproj/xcshareddata/xcschemes/TRColorPalette.xcscheme; sourceTree = SOURCE_ROOT; };
+		90072A291A31C3ED00ED49A9 /* TRColorPalette.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRColorPalette.h; sourceTree = "<group>"; };
+		90072A2A1A31C3ED00ED49A9 /* TRColorPalette.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRColorPalette.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90072A1B1A31C3ED00ED49A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90072A211A31C3ED00ED49A9 /* AppKit.framework in Frameworks */,
+				90072A231A31C3ED00ED49A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90072A141A31C3EC00ED49A9 = {
+			isa = PBXGroup;
+			children = (
+				90072A241A31C3ED00ED49A9 /* TRColorPalette */,
+				90072A1F1A31C3ED00ED49A9 /* Frameworks */,
+				90072A1E1A31C3ED00ED49A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90072A1E1A31C3ED00ED49A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90072A1D1A31C3ED00ED49A9 /* TRColorPalette.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90072A1F1A31C3ED00ED49A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90072A201A31C3ED00ED49A9 /* AppKit.framework */,
+				90072A221A31C3ED00ED49A9 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90072A241A31C3ED00ED49A9 /* TRColorPalette */ = {
+			isa = PBXGroup;
+			children = (
+				90072A291A31C3ED00ED49A9 /* TRColorPalette.h */,
+				90072A2A1A31C3ED00ED49A9 /* TRColorPalette.m */,
+				90072A251A31C3ED00ED49A9 /* Supporting Files */,
+			);
+			path = TRColorPalette;
+			sourceTree = "<group>";
+		};
+		90072A251A31C3ED00ED49A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90072A261A31C3ED00ED49A9 /* Info.plist */,
+				90072A271A31C3ED00ED49A9 /* TRColorPalette.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90072A1C1A31C3ED00ED49A9 /* TRColorPalette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90072A2E1A31C3ED00ED49A9 /* Build configuration list for PBXNativeTarget "TRColorPalette" */;
+			buildPhases = (
+				90072A191A31C3ED00ED49A9 /* Sources */,
+				90072A1A1A31C3ED00ED49A9 /* Resources */,
+				90072A1B1A31C3ED00ED49A9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRColorPalette;
+			productName = TRColorPalette;
+			productReference = 90072A1D1A31C3ED00ED49A9 /* TRColorPalette.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90072A151A31C3EC00ED49A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = timothyrobb;
+				TargetAttributes = {
+					90072A1C1A31C3ED00ED49A9 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 90072A181A31C3EC00ED49A9 /* Build configuration list for PBXProject "TRColorPalette" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 90072A141A31C3EC00ED49A9;
+			productRefGroup = 90072A1E1A31C3ED00ED49A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90072A1C1A31C3ED00ED49A9 /* TRColorPalette */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90072A1A1A31C3ED00ED49A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90072A281A31C3ED00ED49A9 /* TRColorPalette.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90072A191A31C3ED00ED49A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90072A2B1A31C3ED00ED49A9 /* TRColorPalette.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		90072A2C1A31C3ED00ED49A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		90072A2D1A31C3ED00ED49A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		90072A2F1A31C3ED00ED49A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = TRColorPalette/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		90072A301A31C3ED00ED49A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = TRColorPalette/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90072A181A31C3EC00ED49A9 /* Build configuration list for PBXProject "TRColorPalette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90072A2C1A31C3ED00ED49A9 /* Debug */,
+				90072A2D1A31C3ED00ED49A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90072A2E1A31C3ED00ED49A9 /* Build configuration list for PBXNativeTarget "TRColorPalette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90072A2F1A31C3ED00ED49A9 /* Debug */,
+				90072A301A31C3ED00ED49A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90072A151A31C3EC00ED49A9 /* Project object */;
+}
