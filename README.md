@@ -5,7 +5,7 @@ It essentially read the named static methods you provide in your UIColor categor
 
 ## Installation
 
-- Install using [Alcatraz](alcatraz.io)
+- Install using [Alcatraz](http://www.alcatraz.io)
 
 ## Usage
 
